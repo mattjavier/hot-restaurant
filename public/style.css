@@ -7,6 +7,10 @@ body {
   color: rgb(100, 100, 100);
 }
 
-.navColor{
+.themeGray {
+  color: rgb(100, 100, 100);
+}
+
+.navColor {
   color: rgb(255, 166, 0);
-} 
+}
