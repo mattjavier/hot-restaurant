@@ -2,7 +2,7 @@ const router = require('express').Router()
 const { join } = require('path')
 
 router.get('/tables', (req, res) => {
-  res.sendFile(join(__dirname, '../public/tables.html'))
+  res.sendFile(join(__dirname, '../public/table.html'))
 })
 
 router.get('/reserve', (req, res) => {
