@@ -36,7 +36,7 @@ router.post('/tables', (req, res) => {
       fs.writeFile(join(__dirname, '../db/reserve.json'), JSON.stringify(tables), err => {
         if (err) { console.log(err) }
     
-        res.json(true)
+        res.json(table)
       })
     } else {
       fs.readFile(join(__dirname, '../db/wait.json'), 'utf8', (err, data) => {
@@ -48,7 +48,7 @@ router.post('/tables', (req, res) => {
         fs.writeFile(join(__dirname, '../db/wait.json'), JSON.stringify(waitlist), err => {
           if (err) { console.log(err) }
         
-          res.json(false)
+          res.json(table)
         })
       })
     }
