@@ -1,0 +1,16 @@
+body {
+  background-color: rgba(255, 255, 255, 0.746);
+}
+
+#homeText {
+  font-size: xx-large;
+  color: rgb(100, 100, 100);
+}
+
+.themeGray {
+  color: rgb(100, 100, 100);
+}
+
+.navColor {
+  color: rgb(255, 166, 0);
+}
